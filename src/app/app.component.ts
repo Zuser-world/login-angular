@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Firestore, collection, addDoc } from '@angular/fire/firestore';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-tour-of-heroes';
+  title = 'juan-pages';
+
+  constructor(private firestore: Firestore){
+
+  }
+  altaUsuario(){
+    
+  }
 }

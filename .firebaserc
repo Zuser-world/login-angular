@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "login-57e97": {
+      "hosting": {
+        "angular-tour-of-heroes": [
+          "login-57e97"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "login-57e97"
+  }
+}
